@@ -1,0 +1,71 @@
+# Ignore Composer dependency directory
+/vendor/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore node_modules for front-end dependencies (if applicable)
+/node_modules/
+
+# Ignore IDE and Editor specific files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PHPStorm project files
+/.phpstorm.meta.php
+
+# Ignore logs and temporary files
+/logs/
+/tmp/
+/cache/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore PHPUnit test results
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore coverage reports
+coverage/
+
+# Ignore compiled assets
+/public/build/
+public/assets/css/*.css
+public/assets/js/*.js
+public/assets/*.map
+
+# Ignore user-specific config files
+config.php
+
+# Ignore database files (if applicable)
+*.sql
+*.sqlite
+*.db
+
+# Ignore any OS generated files or folders
+*~
+*.swp
+*.swo
+*.bak
+
+# Ignore other backup files
+*.bak
+*.backup
+*.old
+
+# Ignore log files
+*.log
+
+# Ignore custom uploads and sensitive files
+/uploads/
