@@ -30,7 +30,7 @@
         "slim/csrf": "^1.5",
         "slim/psr7": "^1.6",
         "slim/slim": "^4.10",
-        "symfony/http-foundation": "^5.4",
+        "symfony/http-foundation": "^7.1",
         "symfony/var-dumper": "^5.4",
         "tuupola/slim-jwt-auth": "^3.8"
     },
